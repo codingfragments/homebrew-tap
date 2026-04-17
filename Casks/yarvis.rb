@@ -11,6 +11,12 @@ cask "yarvis" do
 
   app "Yarvis.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Yarvis.app"],
+                   sudo: false
+  end
+
   zap trash: [
     "~/.yarvis",
   ]
