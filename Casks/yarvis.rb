@@ -1,6 +1,6 @@
 cask "yarvis" do
-  version "0.6.3"
-  sha256 "f35385b9b63b9306339bb197808a92799ae0fc9614bfbd8f48887df3afd892f8"
+  version "0.6.4"
+  sha256 "90191188bcba6a50ae6ff3811a3ccc58b39d1c10d7754ec5d4a6b43f3f60622a"
 
   url "https://github.com/codingfragments/yarvis/releases/download/v#{version}/Yarvis_#{version}_aarch64.dmg"
   name "Yarvis"
